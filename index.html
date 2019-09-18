@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="section">Enqueue</div>
+
+    <div>
+        <input class="line-break" id="textName" type="text" placeholder="Name" />
+        <button onclick="addToQueue()">Enqueue</button>
+    </div>
+
+    <div class="section">Queue</div>
+    <div id="queue-table" class="Table Center">
+        <div class="Heading">
+            <div class="Cell HidePartTime">
+                <p>Enqueued At</p>
+            </div>
+            <div class="Cell">
+                <p>Name</p>
+            </div>
+            <div class="Cell">
+                <p>Queue Num</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">Current</div>
+
+    <div id="queue-done-table" class="Table Center">
+        <div class="Heading">
+            <div class="Cell HidePartTime">
+                <p>Enqueued At</p>
+            </div>
+            <div class="Cell">
+                <p>Name</p>
+            </div>
+            <div class="Cell">
+                <p>Queue Num</p>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="callNextBtn()">Call Next</button>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
