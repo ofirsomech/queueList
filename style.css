@@ -42,7 +42,7 @@ button:hover {
 
 @media(max-width:500px) {
     .HidePartTime {
-        visibility: hidden;
+        display: none;
     }
     .line-break {
         display: block;
